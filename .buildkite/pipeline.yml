@@ -1,6 +1,6 @@
 steps:
   - group: ":testflight: Testing Stuff"
-  - key: "test_group"
+    key: "test_group"
   steps:
     - label: "Hello World Display"
       command: echo "Hello World"
