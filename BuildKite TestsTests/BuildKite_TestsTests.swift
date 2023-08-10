@@ -17,4 +17,15 @@ final class BuildKite_TestsTests: XCTestCase {
         
         XCTAssertEqual(sut.title, "BuildKite")
     }
+    
+    func testBackgroundIsWhite() {
+        // Given
+        let sut = ViewController()
+        
+        // When
+        sut.loadViewIfNeeded()
+        
+        // Then
+        XCTAssertEqual(sut.view.backgroundColor, .white)
+    }
 }
