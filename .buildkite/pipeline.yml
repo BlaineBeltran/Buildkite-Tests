@@ -1,3 +1,10 @@
 steps:
-  - label: "Testing Echo"
-    command: echo "hello world"
+  - group: ":testflight: Testing Stuff"
+  - key: "test_group"
+  steps:
+    - label: "Hello World Display"
+      command: echo "Hello World"
+    - label: "Testing Echo"
+      command: echo "echo echo echo..."
+    - label: "Unit Tests"
+      command: "bundle exec fastlane test_lane"
