@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         title = "BuildKite"
-        view.backgroundColor = .white
+        view.backgroundColor = .black
     }
 
 

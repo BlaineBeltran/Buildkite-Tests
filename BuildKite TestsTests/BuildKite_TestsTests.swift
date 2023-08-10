@@ -18,7 +18,7 @@ final class BuildKite_TestsTests: XCTestCase {
         XCTAssertEqual(sut.title, "BuildKite")
     }
     
-    func testBackgroundIsWhite() {
+    func testBackgroundIsBlack() {
         // Given
         let sut = ViewController()
         
@@ -26,6 +26,6 @@ final class BuildKite_TestsTests: XCTestCase {
         sut.loadViewIfNeeded()
         
         // Then
-        XCTAssertEqual(sut.view.backgroundColor, .white)
+        XCTAssertEqual(sut.view.backgroundColor, .black)
     }
 }
