@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         
         title = "BuildKite"
         view.backgroundColor = .white
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 
 
