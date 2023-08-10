@@ -4,4 +4,4 @@ steps:
   - label: "Testing Echo"
     command: echo "echo echo echo..."
   - label: ":testflight: Unit Tests"
-    command: "bundle exec fastlane test_lane"
+    command: "bundle exec fastlane test"
