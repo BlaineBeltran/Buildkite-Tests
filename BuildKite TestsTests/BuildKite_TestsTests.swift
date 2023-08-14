@@ -15,7 +15,7 @@ final class BuildKite_TestsTests: XCTestCase {
         
         sut.loadViewIfNeeded()
         
-        XCTAssertEqual(sut.title, "BuildKite")
+        XCTAssertEqual(sut.title, "Home")
     }
     
     func testBackgroundIsWhite() {
