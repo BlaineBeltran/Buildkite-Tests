@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "BuildKite"
+        title = "Home"
         view.backgroundColor = .white
         navigationController?.navigationBar.prefersLargeTitles = false
     }
